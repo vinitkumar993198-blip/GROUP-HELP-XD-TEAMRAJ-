@@ -1,1 +1,11 @@
-
+pyrogram~=2.0.106
+Py-TgCalls~=4.0.3
+Pillow
+aiohttp
+aiofiles
+requests
+isodate
+psutil
+pymongo
+python-dotenv
+flask
