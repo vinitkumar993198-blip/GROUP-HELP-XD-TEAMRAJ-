@@ -1,1 +1,17 @@
-
+services:
+  - type: web
+    name: frozen-music-bot
+    env: python
+    buildCommand: "pip install --no-cache-dir -r requirements.txt"
+    startCommand: "python main.py"
+    envVars:
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: ASSISTANT_SESSION
+        sync: false
+      - key: MongoDB_url
+        sync: false
