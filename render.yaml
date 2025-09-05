@@ -1,6 +1,7 @@
 services:
   - type: web
     name: frozen-music-bot
+    plan: free
     env: python
     buildCommand: "pip install --no-cache-dir -r requirements.txt"
     startCommand: "python main.py"
