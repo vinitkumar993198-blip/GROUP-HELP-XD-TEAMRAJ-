@@ -11,7 +11,5 @@ services:
         sync: false
       - key: BOT_TOKEN
         sync: false
-      - key: ASSISTANT_SESSION
-        sync: false
       - key: MongoDB_url
         sync: false
